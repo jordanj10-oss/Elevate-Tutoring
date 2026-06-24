@@ -1,0 +1,357 @@
+.pricing-page {
+  overflow-x: hidden;
+}
+
+/* Hero */
+.pricing-hero {
+  background: linear-gradient(135deg, #1a365d, #2b6cb0);
+  color: #ffffff;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.pricing-hero h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.pricing-hero p {
+  font-size: 18px;
+  color: #bee3f8;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.pricing-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.pricing-card-highlighted {
+  border: 2px solid #3182ce;
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(49, 130, 206, 0.15);
+}
+
+.pricing-card-highlighted:hover {
+  transform: scale(1.05) translateY(-4px);
+}
+
+.popular-badge {
+  background: #F5A623;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.pricing-card-header {
+  padding: 28px 24px 20px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pricing-card-header h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 4px;
+}
+
+.pricing-subtitle {
+  font-size: 14px;
+  color: #718096;
+  margin-bottom: 20px;
+}
+
+.pricing-amount {
+  margin-bottom: 8px;
+}
+
+.pricing-amount .price {
+  font-size: 40px;
+  font-weight: 800;
+  color: #2d3748;
+}
+
+.pricing-amount .unit {
+  font-size: 16px;
+  color: #718096;
+  font-weight: 500;
+}
+
+.pricing-sessions {
+  font-size: 14px;
+  color: #4a5568;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.savings-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #fdf2e9;
+  color: #F5A623;
+  border: 1px solid #F5A623;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.pricing-card-body {
+  padding: 24px;
+}
+
+.pricing-description {
+  font-size: 14px;
+  color: #718096;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.pricing-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #4a5568;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.check-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c6f6d5;
+  color: #38a169;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 1px;
+}
+
+/* Buttons */
+.btn-outline {
+  background: transparent;
+  color: #3182ce;
+  border: 2px solid #3182ce;
+}
+
+.btn-outline:hover {
+  background: #ebf8ff;
+}
+
+.btn-block {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Comparison Table */
+.comparison-table-wrapper {
+  overflow-x: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.comparison-table th {
+  background: #f7fafc;
+  font-weight: 700;
+  color: #1a365d;
+  font-size: 15px;
+}
+
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.comparison-table .highlighted-col {
+  background: #ebf8ff;
+  color: #2b6cb0;
+  font-weight: 600;
+}
+
+.comparison-table th.highlighted-col {
+  background: #3182ce;
+  color: #ffffff;
+}
+
+.comparison-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Test Prep Grid */
+.testprep-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.testprep-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.testprep-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testprep-card-header {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.testprep-card-header h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 8px;
+}
+
+.testprep-price .price {
+  font-size: 32px;
+  font-weight: 800;
+  color: #2d3748;
+}
+
+.testprep-price .unit {
+  font-size: 15px;
+  color: #718096;
+  font-weight: 500;
+}
+
+.testprep-description {
+  font-size: 14px;
+  color: #718096;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.testprep-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+/* FAQ */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.faq-item h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #718096;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .pricing-card-highlighted {
+    transform: none;
+  }
+  .pricing-card-highlighted:hover {
+    transform: translateY(-4px);
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-hero {
+    padding: 56px 20px;
+  }
+
+  .pricing-hero h1 {
+    font-size: 32px;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .testprep-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}

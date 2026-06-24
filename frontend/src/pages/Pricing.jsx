@@ -44,9 +44,9 @@ export default function Pricing() {
                       </li>
                     ))}
                   </ul>
-                  <button className={`btn ${plan.highlighted ? 'btn-primary' : 'btn-outline'} btn-block`}>
+                  <a href={plan.stripeUrl} target="_blank" rel="noopener noreferrer" className={`btn ${plan.highlighted ? 'btn-primary' : 'btn-outline'} btn-block`}>
                     {plan.cta}
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
@@ -158,7 +158,7 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <button className="btn btn-primary btn-block">Enroll Now</button>
+                <a href={course.stripeUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-block">Enroll Now</a>
               </div>
             ))}
           </div>

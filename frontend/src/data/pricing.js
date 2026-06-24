@@ -5,6 +5,7 @@ export const pricingPlans = [
     subtitle: 'Flexible learning, no commitment',
     price: 45,
     unit: 'per session',
+    stripeUrl: 'https://buy.stripe.com/8x214n14t3RN5RJ7bQ43S00',
     description: 'Perfect for students who need occasional help or want to try our service before committing.',
     features: [
       '1-hour tutoring sessions',
@@ -26,6 +27,7 @@ export const pricingPlans = [
     unit: 'per month',
     sessions: '4 sessions/month',
     savings: 'Save 14%',
+    stripeUrl: 'https://buy.stripe.com/5kQaEX14n1JFdk2VA43S01',
     description: 'Great for students who need regular weekly support in one or two subjects.',
     features: [
       '4 one-hour tutoring sessions per month',
@@ -48,6 +50,7 @@ export const pricingPlans = [
     unit: 'per month',
     sessions: '8 sessions/month',
     savings: 'Save 24%',
+    stripeUrl: 'https://buy.stripe.com/14A5kDdRf4VRfsj8fU43S02',
     description: 'Perfect for students tackling multiple subjects or preparing for major exams.',
     features: [
       '8 one-hour tutoring sessions per month',
@@ -71,6 +74,7 @@ export const pricingPlans = [
     unit: 'per month',
     sessions: '12 sessions/month',
     savings: 'Save 31%',
+    stripeUrl: 'https://buy.stripe.com/14A14naF31JFa7Z8fU43S03',
     description: 'Best value for students who want intensive support across multiple subjects.',
     features: [
       '12 one-hour tutoring sessions per month',
@@ -95,6 +99,7 @@ export const testPrepCourses = [
     name: 'SAT Prep Course',
     price: 599,
     sessions: '10 sessions',
+    stripeUrl: 'https://buy.stripe.com/6oU7sLdRf9c72Fx1Rw43S04',
     description: 'Comprehensive SAT preparation covering Math, Reading, and Writing sections with practice tests and personalized feedback.',
     features: [
       '10 one-hour tutoring sessions',
@@ -109,6 +114,7 @@ export const testPrepCourses = [
     name: 'ACT Prep Course',
     price: 599,
     sessions: '10 sessions',
+    stripeUrl: 'https://buy.stripe.com/6oU7sLdRf9c72Fx1Rw43S04',
     description: 'Complete ACT preparation covering all sections with proven strategies and real practice materials.',
     features: [
       '10 one-hour tutoring sessions',
@@ -123,6 +129,7 @@ export const testPrepCourses = [
     name: 'GRE Prep Course',
     price: 749,
     sessions: '12 sessions',
+    stripeUrl: 'https://buy.stripe.com/6oU7sLdRf9c72Fx1Rw43S04',
     description: 'Graduate-level preparation with focus on Verbal, Quantitative, and Analytical Writing sections.',
     features: [
       '12 one-hour tutoring sessions',
@@ -138,6 +145,7 @@ export const testPrepCourses = [
     name: 'GMAT Prep Course',
     price: 799,
     sessions: '12 sessions',
+    stripeUrl: 'https://buy.stripe.com/6oU7sLdRf9c72Fx1Rw43S04',
     description: 'Business school preparation with adaptive strategies for the computer-adaptive test format.',
     features: [
       '12 one-hour tutoring sessions',
@@ -153,6 +161,7 @@ export const testPrepCourses = [
     name: 'LSAT Prep Course',
     price: 799,
     sessions: '12 sessions',
+    stripeUrl: 'https://buy.stripe.com/6oU7sLdRf9c72Fx1Rw43S04',
     description: 'Law school preparation with intensive focus on Logic Games, Logical Reasoning, and Reading Comprehension.',
     features: [
       '12 one-hour tutoring sessions',

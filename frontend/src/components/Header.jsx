@@ -20,6 +20,7 @@ export default function Header() {
           <Link to="/subjects" className={isActive('/subjects')}>Subjects</Link>
           <Link to="/pricing" className={isActive('/pricing')}>Pricing</Link>
           <Link to="/about" className={isActive('/about')}>How It Works</Link>
+          <Link to="/become-a-tutor" className={isActive('/become-a-tutor')}>Become a Tutor</Link>
           <Link to="/contact" className="nav-cta">Get Started</Link>
         </nav>
       </div>

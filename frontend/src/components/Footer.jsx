@@ -23,6 +23,7 @@ export default function Footer() {
             <Link to="/subjects">All Subjects</Link>
             <Link to="/pricing">Pricing</Link>
             <Link to="/about">How It Works</Link>
+            <Link to="/become-a-tutor">Become a Tutor</Link>
             <Link to="/contact">Get Started</Link>
           </div>
 
